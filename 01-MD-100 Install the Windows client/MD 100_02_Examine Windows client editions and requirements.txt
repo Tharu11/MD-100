@@ -1,0 +1,122 @@
+Examine Windows client editions and requirements
+
+
+* Windows edition overview
+Windows 10 / Windows 11 Edition               Audience                                Availability
+Home                                     - Individual home use                |      Everyone
+Pro                           - Small and mid-sized businesses, advanced users|         Everyone
+Pro for Workstations                 - Users with advanced performance and    |
+                                              storage requirements            |         Everyone
+Enterprise                          - Large enterprise organizations          |  Available to Volume License customers
+Enterprise LTSC                 - Large enterprise organizations with         |  Available to Volume License customers
+                                  restrictive change requirements             |    
+Pro Education                    - Comparable to Pro for school staff,        | Available to academic Volume License customers
+                                    administrators, teachers, and students    | Available to academic Volume License customers
+Education                        - Comparable to Enterprise for school        |
+                                 staff, administrators, teachers, and students|
+IoT Core/Enterprise              - Fixed purpose and appliance devices        |  Available through Windows IoT Distributors
+
+
+Windows edition details
+
+* Home edition
+* Microsoft Edge
+* Windows Hello
+* Virtual Desktops
+* Photos, Maps, Mails, Calendar, Music and Video, and other built-in universal Windows apps
+* Device encryption
+* Firewall and virus protection
+* Always On VPN
+* New updates and features received automatically
+
+
+Pro edition
+
+* Windows Autopilot 
+* Dynamic Provisioning
+* Mobile Device Management (MDM)
+* Domain Join
+* Ability to join Azure Active Directory
+* Group Policy Management
+* BitLocker
+* Windows Information Protection (with MDM management)
+* Assigned Access
+* Remote Desktop
+* Client Hyper-V
+* Microsoft Store for Business
+* Windows Update for Business
+* Enterprise Data Protection
+* Granular user-interface Control
+* Enterprise State Roaming
+
+
+Pro for Workstations
+
+* ReFS (Resilient File System)
+* Persistent memory
+* SMB Direct
+* Expanded Hardware Support
+
+
+Enterprise edition
+
+* AppLocker
+* Universal Print
+* Start menu layout control
+* Microsoft Defender Credential Guard
+* Microsoft Defender Application Control
+* Microsoft Defender Application Guard
+* Microsoft Application Virtualization (App-V)
+* Microsoft User Experience Virtualization (UE-V)
+* License rights
+* Desktop Analytics
+* DirectAccess
+
+
+Enterprise LTSC
+
+* Doesn’t receiver feature upgrades
+* No Microsoft Edge browser (can be installed separately)
+* No Microsoft Store client
+* Many built-in universal Windows apps are missing
+
+
+Pro Education and Education
+
+* Pro Education and Education offer the same features as Pro and Enterprise editions, respectively, except for the Long-Term Servicing Channel. 
+* These editions of Windows have configurations more suitable for school staff, administrators, teachers, and students.
+* Pro Education and Education editions are only available through academic Volume Licensing.
+
+
+IoT Core/Enterprise
+
+* The IoT Edition of Windows is designed for fixed-purpose devices.
+* Examples include automated teller machines, point-of-sale terminals, and industrial and medical devices.
+* Windows 10 IoT Core is a smaller OS designed to run a single app, while Windows 10/11 IoT Enterprise is a full version of Windows Enterprise with specialized features.
+Select a Windows client edition
+* Form factors
+* Desktop PC
+* Laptop
+* Tablet
+* Hybrid
+* Xbox
+* HoloLens
+* Surface Hub
+
+
+32-bit and 64-bit editions:
+Windows 11 is only available in 64-bit. Desktop editions of Windows 10 are available in both 32-bit and 64-bit versions.
+
+Examine Windows hardware requirements
+* Feature-specific requirements
+* Windows Hello
+* Two factor authentication
+* Snap
+* Secure boot
+* DirectX
+* BitLock to Go
+* Client Hyper-V
+* Miracast/Windows Projection
+* Wi-Fi Direct Printing
+* InstantGo
+* DirectStorage

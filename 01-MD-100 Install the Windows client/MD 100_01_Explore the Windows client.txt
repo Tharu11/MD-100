@@ -1,0 +1,78 @@
+﻿Explore the Windows client
+
+
+* Windows 11 and previous versions operate across a wide range of devices. These devices include desktops, laptops, tablets, and other touch-enabled devices like phones. To optimize the user experience, the Windows client OS offers several editions.
+
+
+* Some essential new features in Windows 10 and 11.
+- Start screen and Start menu improvements (Pinned apps, All apps, Recommended)
+- Cloud integration
+- Snap Layouts and Snap Groups
+- Widgets
+- Windows Terminal app
+- Chromium-based Microsoft Edge
+
+
+* Recovery tools
+- Reset this PC: Introduced in Windows 10 (Keep my files, Remove everything)
+- Advanced start-up options: (Use a device, Troubleshoot)
+
+
+* Virtualization
+- Client Hyper-V
+- Windows Sandbox
+
+
+* Mobility improvements
+- Support for multiple device types
+- Bring Your Own Device support
+- Mobile broadband
+- Broadband tethering
+- Autotriggered VPN
+
+
+* Security enhancements
+- Remote Business Data Removal
+- Improved biometrics
+- Pervasive device encryption
+- Malware resistance
+- Device lockdown
+- Virtual secure mode
+- Nearby Sharing
+
+
+Evaluate the benefits of Windows client
+
+
+* Easy to use
+- Touch support
+- A consistent user interface
+- Performance improvements
+
+
+* Continuous updates
+* Improved device management
+- Microsoft Intune
+- Configuration Manager
+- Desktop Analytics
+- Windows Autopilot
+
+
+* Distribution of apps by using the Microsoft Store
+* More secure
+
+
+Explain desktop management in an enterprise environment
+* By allowing users to manage their computers, the following problems could occur:
+- Software update problems
+- Anti-malware problems
+- Application management
+- Hardware support
+
+
+* Enterprises often use one or more standard operating environments (SOEs) to manage a large fleet of computers more efficiently. An SOE is a set operating system, application, and hardware configuration.
+- Simplified deployment of new and replacement computers
+- Consistent applications and hardware
+- Simplified inventory
+- Simplified updating
+- Simpler software deployment

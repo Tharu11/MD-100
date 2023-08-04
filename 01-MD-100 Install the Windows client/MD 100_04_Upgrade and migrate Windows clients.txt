@@ -1,0 +1,51 @@
+Upgrade and migrate Windows clients
+
+
+-Examine the process of upgrading Windows clients-
+
+The process of Upgrading to Windows 10
+
+* Evaluate
+* Back up
+* Upgrade
+* Verify
+* Update
+
+-Explore supported upgrade paths-
+
+In-place upgrade paths for Windows
+
+* Windows 10/11 Home
+* Windows 10/11 Pro or Pro Education
+* Windows 10/11 Enterprise
+* Windows 10/11 Education
+* Windows 8.1
+* Windows 8.1 Pro / Pro Student
+* Windows 8.1 Enterprise
+* Windows 10 Home
+* Windows 10 Pro
+* Windows 10 Enterprise or Education
+
+-Edition Upgrade paths for Windows 10 and later-
+
+Edition upgrade
+
+* Using mobile device management (MDM)
+* Using a provisioning package
+* Using a command-line tool (changepk.exe)
+* Using Microsoft Store for Business or PC
+* Entering a product key manually
+* Purchasing a license from the Microsoft Store
+
+-Examine the process of migrating Windows clients-
+
+* Side-by-side migration
+* In-place migration
+
+The migration process includes the following steps:
+
+* Back up
+* Install Windows
+* Update
+* Install applications
+* Restore

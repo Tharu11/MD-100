@@ -1,0 +1,82 @@
+Evaluate deployment methods
+
+Modern
+
+* Windows Autopilot
+* In-place upgrade
+
+Dynamic
+
+* Subscription
+* Azure Active Directory (Azure AD)
+* Provisioning packages
+
+Traditional
+
+* Bare metal
+* Refresh
+* Replace
+
+-Explore imaging and autopilot-
+
+What is Imaging?
+
+* Imaging is creating a “snapshot” of a reference computer with the desired OS, configurations, and apps pre-installed and then deploying that snapshot to multiple computers.
+* It copies the reference computer configuration to the target computer when deploying an image.
+* This method has been the preferred use in medium and large organizations for years.
+
+What is Autopilot?
+
+* Windows 10 was the first to introduce Autopilot. 
+* The concept behind Autopilot was to reduce the need to reimage machines. Typically, new devices come pre-installed with Windows on them by the hardware vendor, with the vendor’s preferred configuration. 
+* Autopilot reconfigures the device to a clean Windows 10 or 11 install, providing an out-of-box experience while applying the organization’s desired configuration and applications. 
+* Configuring a device using Autopilot is typically easier than creating and managing images.
+
+Explore deployment strategies
+
+* High-touch Deployment
+* Lite-touch Deployment
+* Zero-touch Deployment
+* Bring Your Own Device
+
+Explore deployment tools
+
+* Windows Assessment and Deployment Kit
+* Deployment Image Servicing and Management (DISM)
+* DISM Offline Servicing
+* Windows Imaging and Configuration Designer
+* Windows System Image Manager (Windows SIM)
+* Volume Activation Management Tool (VAMT)
+* Windows Preinstallation Environment (Windows PE)
+* Windows Deployment Services (WDS)
+* Microsoft Deployment Toolkit
+
+-Explore the User State Migration Tool-
+
+Identifying which components to migrate
+
+* User accounts
+* Application settings
+* Operating-system settings
+* File types, files, folders, and settings
+
+Using USMT
+
+* ScanState.exe
+* LoadState.exe
+
+-Explore client virtualization-
+
+Client Hyper-V
+
+* Client Hyper-V is the virtualization technology built into Windows clients. 
+* It's the same virtualization technology previously available only in Windows Server. 
+* Client Hyper-V enables you to run one or more operating systems simultaneously on the same host computer.
+
+
+Windows Sandbox
+
+* Pristine
+* Disposable
+* Secure
+* Efficient
