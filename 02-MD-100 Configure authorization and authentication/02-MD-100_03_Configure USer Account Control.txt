@@ -1,0 +1,66 @@
+Configure User Account Control
+
+
+-Explore User Account Control-
+
+
+When you need to make changes to your computer that require administrator-level permissions, UAC notifies you as follows:
+
+* If you're an administrator, select Yes to continue.
+* If you aren't an administrator, someone with an administrator account on the computer will have to enter their password for you to continue.
+
+Standard users
+
+* Install updates from Windows Update.
+* Install drivers from Windows Update or those that are included with the operating system.
+* View Windows settings. However, a standard user is prompted for elevated permissions when changing Windows settings.
+* Pair Bluetooth devices with the computer.
+* Reset the network adapter and perform other network-diagnostic and repair tasks.
+
+Administrative users
+Administrative users automatically have:
+
+* Read/write/enact permissions for all resources.
+* All Windows permissions.
+
+-Understand UAC elevation prompts-
+
+Standard user account permission tasks
+
+The following list details some of the tasks that a standard user can perform:
+
+* Establish a local area network (LAN) connection.
+* Establish and configure a wireless connection.
+* Modify display settings.
+* Users cannot defragment the hard drive, but a service does this on their behalf.
+* Play CD/DVD media (configurable with Group Policy).
+* Burn CD/DVD media (configurable with Group Policy).
+* Change the desktop background for the current user.
+* Open Date and Time in the Control Panel, and change the time zone.
+* Use Remote Desktop to connect to another computer.
+* Change a user’s own account password.
+* Configure battery power options.
+* Configure accessibility options.
+* Restore a user’s backup files.
+* Set up computer synchronization with a mobile device, including a smartphone, laptop, or personal digital assistant (PDA).
+* Connect and configure a Bluetooth device.
+
+-Administrator account permission tasks-
+
+The following list details some of the tasks that require elevation to an administrator account:
+
+* Install and uninstall applications.
+* Install a driver for a device, such as a digital camera driver.
+* Install Windows updates.
+* Configure Parental Controls.
+* Install an ActiveX control.
+* Open Windows Defender Firewall in the Control Panel.
+* Change a user’s account type.
+* Modify UAC settings in the Security Policy Editor snap-in (Secpol.msc) to the Microsoft Management Console (MMC).
+* Configure Remote Desktop access.
+* Add or remove a user account.
+* Copy or move files into the Program Files or Windows directory.
+* Schedule Automated Tasks.
+* Restore system backup files.
+* Configure Automatic Updates.
+* Browse to another user’s directory.

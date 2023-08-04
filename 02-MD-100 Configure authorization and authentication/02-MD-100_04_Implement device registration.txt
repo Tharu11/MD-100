@@ -1,0 +1,53 @@
+Implement device registration
+
+
+When a device is joined to a domain, users can access company resources without having to enter their credentials every time they access company resources. Users can have a similar experience from a device that you enable for Device Registration, but without requiring the device to be a domain member.
+
+-Understand the challenges to data access for multiple device types-
+
+New challenges to IT departments include:
+
+* Allowing users to work on devices of their choice, while providing consistent access to corporate resources.
+* Allowing users to access resources in remote locations, such as work-at-home.
+* Unifying the environment and providing unified applications and device management of the company-owned and domain-owned devices along with BYOD devices.
+* Protecting company data, enforcing company policies and compliance requirements, and managing risks regardless of where data is accessed, or from which device.
+
+-Explore the Microsoft device strategy framework-
+
+* On your own
+* Bring your own device (Bring your own unmanaged device, Bring your own managed device
+* Choose your own device (also called CYOD)
+* Here’s your own device
+
+-Explore device registration-
+
+* The device is associated with the user's account in the company directory.
+* The device object is created in AD DS.
+* The user certificate is installed on the device.
+
+-Examine how device registration works-
+
+The main purposes of the Device Registration feature are to provide:
+
+* Registration in AD DS for non-domain joined devices.
+* SSO for selected applications and resources in a company’s internal network.
+
+Assess infrastructure requirements to support device registration
+Device Registration feature
+
+* Active Directory environment.
+* Public key infrastructure.
+* AD FS.
+* Device Registration Service. 
+* A DNS record for the host named Enterprise registration.
+* Web Application Proxy.
+* A supported operating system on the device.
+
+Register and enroll devices
+
+1. Open the Start menu, select the Settings option, and then select Accounts.
+2. On the Accounts page, select Access work or school.
+3. On the Access work or school page, select Connect.
+4. Enter the user ID with which you want to register the device. The user ID looks the same as a user’s email address and is composed of the user’s sign-in name, the at sign (@), and a domain suffix. Domain administrators refer to user ID as the user principal name (UPN). When performing a device registration, the computer tries to resolve the Enterprise registration name, and verifies that the SSL certificate is trusted and still valid.
+5. Enter user domain credentials. The device can be a workgroup member, but the user must have a domain account to enable Device Registration on the device.
+6. Once the device is enabled for Device Registration, Device Registration Service creates a domain object for the joined device in the Registered Devices AD DS container, and the user is provided with a certificate for client authentication.
