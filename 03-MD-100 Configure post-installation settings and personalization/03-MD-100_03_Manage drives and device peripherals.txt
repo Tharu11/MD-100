@@ -1,0 +1,82 @@
+Manage drives and device peripherals
+
+
+You'll learn the function drivers serve and how you can install them in Windows. 
+You'll also learn more about tools for managing device peripherals
+This module also focuses on configuring printer drivers and understanding the printing components in a Windows environment.
+
+-Examine device drives-
+
+Installing Drives Manually
+* The hardware is older and not available from Windows Update.
+* The hardware driver is only provided by the manufacturer.
+* The scenario may call for a different driver from the manufacturer other than the one provided to Microsoft.
+
+A driver package is a set of files that make up a driver. A driver package includes:
+* The .inf file.
+* Any files that the .inf file references.
+* The catalog (.cat) file that contains the digital signature of the device driver.
+Manage device peripherals
+
+Devices in the Settings app
+Devices in the Control Panel
+
+Device Manager
+
+You can use Device Manager to:
+* Install and update device drivers
+* Disable or enable devices
+* Use the Driver Roll Back feature
+* Change resources that devices use, such as interrupt requests (IRQs)
+* Troubleshoot device problems
+* View devices that are connected currently to your network, and the resources that they're using
+Examine printer configuration
+
+Printing device
+* Printer port
+* Printer and printer driver
+
+Methods for installing a printer
+* Add a locally attached printing device automatically
+* Manually browse for a shared network printer
+* Find a printer in the directory
+* Deploy printers by using Group Policy settings
+* Deploy printers by using Group Policy preferences
+
+-Understand Type 3 and 4 printer drives-
+
+A Type 4 printer driver model provides the following benefits:
+* Sharing a printer doesn't require adding extra drivers that match the client architecture.
+* A single Type 4 driver can support multiple printer models.
+* Driver files are isolated on a per-driver basis, which prevents potential driver file-naming conflicts.
+* Driver packages are smaller and more streamlined than Type 3 drivers, and Type 4 drivers install faster than Type 3 drivers.
+* Printer driver and the printer user interface can be deployed independently with Type 4 drivers.
+
+-Manager client-side printing-
+
+Typical operations include the following tasks:
+* Changing printer properties, such as sharing, security, and advanced properties.
+* Selecting your default printer.
+* Viewing and managing your print queue.
+* Pausing or resuming a printer's operation.
+* Pausing, resuming, restarting, or canceling print jobs.
+* Reordering print jobs in your print queue.
+
+-Modifying printer properties-
+
+You can modify printer behavior by configuring printer properties, such as the:
+* General printer properties.
+* Printer's physical location.
+* Printer-sharing functionality.
+* Ports that the printer uses.
+* Times during which the printer is available.
+* Number of print jobs that can spool at one time.
+* Names of groups that are allowed to use the printer.
+
+Manage print server properties
+* Add and remove print servers.
+* Add and delete printers.
+* Add and manage drivers.
+* Manage print queues.
+* View and modify status of printers.
+* Create custom filters to view printers that match certain criteria.

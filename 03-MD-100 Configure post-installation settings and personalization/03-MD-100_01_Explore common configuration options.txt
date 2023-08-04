@@ -1,0 +1,129 @@
+Explore common configuration option
+
+
+Organizations make additional customizations for the device to help provide the best user experience. Examples of these customizations are the options available in the Start menu or ensuring that a laptop’s power settings are optimized for battery life. 
+
+-Customize the user interface-
+
+The following functions apply to both Windows 10 and 11:
+* Pin to Start
+* Unpin from Start
+* Pin to the taskbar
+
+
+The Windows 10 Start menu represents applications as tiles
+* Resize tiles.
+* Live tiles.
+* Grouping tiles. 
+
+Synchronizing settings
+
+Settings that can be synchronized across devices include:
+* Passwords
+* Language Preferences
+* Ease of Access
+* Microsoft Edge browser setting
+
+-Explore the action center-
+
+On the Notifications and actions tab, you can:
+
+* Configure Quick actions. Quick actions enable you to configure which tiles appear in the Action Center. Select Add or remove quick actions to configure a particular tile.
+* Get notifications from apps and other senders.
+* Show notifications on the lock screen.
+* Show reminders and incoming VoIP calls on the lock screen.
+* Hide notifications when I'm duplicating my screen.
+* Show me the Windows welcome experience after updates and occasionally when I sign in to highlight what's new and suggested.
+* Get tips, tricks, and suggestions as you use Windows.
+
+-Use the setting app-
+
+You can access the Settings app in any of the following ways:
+* Open the Action Center, and in the lower portion, select the All Settings tile (Windows 10) or icon (Windows 11).
+* Select the Start menu icon, and then select Settings on the menu.
+* Type Settings in the search box located on the taskbar, and then press Enter.
+
+-Use the Control Panel-
+
+There are multiple ways to access the control panel. Some methods include:
+* Select Start and type Control Panel
+* Select Start, and in All apps,
+   * select Windows System, then Control Panel (Windows 10)
+   * select Windows Tools, then Control Panel (Windows 11)
+* Right-click Start and select Windows PowerShell (Windows 10) or Windows Terminal (Windows 11) and at the prompt, type control panel.
+* You can pin the Control Panel app to the Start.
+
+-Examine the display options-
+
+* Rearrange your displays
+* Identify
+* Detect
+* Night light
+* Color Profile
+* HDR
+* Change the size of text, apps, and other items
+* Resolution
+* Orientation
+* Multiple displays
+* Make this my main display
+* Apply
+* Advanced Display Settings
+* Graphics Settings
+
+Other display settings
+* Size of the text and mouse pointer
+* Text cursor size, color, and thickness
+* Enabling or disabling visual effects, such as animations or transparencies.
+* Color filters and high-contrast settings
+
+-Evaluate options for mobile devices-
+
+The Quick Actions tiles let you edit different settings quickly. These tiles are:
+* Tablet mode.
+* Connect
+* Note
+* All Settings
+* VPN
+* Quiet hours
+* Location
+* Battery saver
+* Airplane mode
+* WiFi
+* Bluetooth
+
+-Configure power plans-
+
+Power plans
+
+You can access the power plans by performing the following procedure:
+1. Open the Settings app, select System Category, and then select Power & Sleep.
+2. Select the Additional power settings hyperlink, or alternatively, type Power Plans in the Ask me anything text box on the taskbar. This will open up the Control Panel Power Options page.
+Configuration options
+
+Screen
+   * On battery power, turn off after
+   * When plugged in, turn off after
+
+Sleep
+   * On battery power, PC goes to sleep after
+   * When plugged in, PC goes to sleep after
+
+On the left side is a list of settings, including:
+
+* Require a password on wakeup
+* Choose what the power buttons do
+* Choose what closing the lid does
+* Create a power plan
+* Choose when to turn off the display
+* Change when the computer sleeps
+
+-Examine Windows client privacy features-
+
+Privacy controls allow you to configure Windows and apps permission to access:
+* The location of the device
+* The device camera or microphone
+* Access to your account information
+* Access to e-mail, contacts, calendar
+* Phone calls, messages, and history
+* Which apps are allowed to continue running in the background
+* Access to document, pictures, and video libraries

@@ -1,0 +1,52 @@
+Explore advanced configuration methods
+
+
+When technicians are required to configure options within Windows for an organization, the ability to configure options at scale becomes a necessity. The most common methods of configuring devices at scale are applying settings using a centralized management console or scripting.
+
+-Explore Windows activation-
+
+Windows has three main methods for activation:
+* Retail
+* OEM
+* Microsoft Volume Licensing (volume activation)
+
+-Explain Group Policy-
+
+Group Policy settings
+
+Most Group Policy settings have three states:
+* Not Configured
+* Enabled
+* Disabled
+
+Group Policy settings structure
+* User settings
+* Computer settings
+
+-Apply Group Policy Objects-
+
+GPOs apply in the following order:
+* Local GPOs
+* Site GPOs
+* Domain GPOs
+* OU GPOs
+* Child OU policies
+
+Options for modifying Group Policy processing
+* Security filtering
+* Enforcement
+* Block inheritance
+
+-Explore Windows PowerShell-
+* Using the command-line interface
+* Using the GUI
+* Using the CLI or GUI
+* Windows PowerShell ISE
+
+Use Windows PowerShell
+* The C drive is the local file system's C drive.
+* The cert drive is the local certificate store.
+* The Env drive contains environmental variables that are stored in memory.
+* The HKCU drive is the HKEY_CURRENT_USER portion of the registry.
+* The HKLM drive is the HKEY_LOCAL_MACHINE portion of the registry.
+* The Variable drive contains the variables that are stored in memory.
