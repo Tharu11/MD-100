@@ -1,0 +1,68 @@
+Employ remote management
+
+
+Windows desktops and apps running in the datacenter or from the Azure cloud can be accessed from various devices. 
+Employees install Microsoft Remote Desktop clients and run desktops and apps on their laptops, tablets or phones and stay productive on the go.
+
+-Examine Remote Desktop-
+
+How to use Remote Desktop
+1. First, you will need to set up the remote PC to allow remote connections. On the remote PC, open Settings (Gear-shaped Settings icon) and select System > About. Note the PC name, you will need this later. Then, under Related settings, select System info.
+2. In the left pane of the System window, select Advanced system settings.
+3. On the Remote tab of the System Properties dialog box, under Remote Desktop, select Allow remote connections to this computer, and then select OK.
+4. Next, in Settings (Gear-shaped Settings icon), select System > Power & sleep and check to make sure Sleep is set to Never.
+
+-Use Remote Assistance-
+
+Enable or disable remote features
+1. Sign in as Administrator.
+2. Right-click Start.
+3. Select System.
+4. Select Advanced system settings or Remote settings in the left pane.
+5. Select the Remote tab.
+6. Select the Allow Remote Assistance connections to this computer check box.
+
+-Verify the Windows firewall is configured correctly-
+
+Check to see that the Windows firewall is not blocking Remote Assistance.
+1. Select Start and then select Settings.
+2. Select Network & Internet.
+3. Select Windows Firewall.
+4. Select Allow an app or feature through Windows Firewall.
+5. Scroll through the list of Allowed apps and features looking for Remote Assistance.
+6. Verify that Remote Assistance is selected, if not select Change settings.
+7. Select the select box for Remote Assistance, and select OK.
+
+-Configure and use Remote Assistance-
+
+To use Remote Assistance
+1. Right-click Start and then select the Control Panel.
+2. Enter invite in the search box.
+3. Select Invite someone to connect to your PC and help you, or offer to help someone else. The Windows 
+
+Remote Assistance wizard starts.
+One Remote Assistance is configured
+* Save this invitation as a file
+* Use email to send an invitation the user sends the invitation using an email client on the machine but cannot send it using any form of web-based email
+* Use Easy Connect (the easiest option if it is enabled by the help and support team)
+
+Quick Assist
+Select Start > Windows Tools > Quick Assist, or select the search box on the taskbar and type Quick Assist, and then select Quick Assist in the list of results.
+
+-Describe Windows Admin Center-
+
+Desktop Administrators a subset of the Server Manager features for managing Windows client PCs. That subset includes:
+* Displaying resources and resource utilization
+* Certificate Management
+* Managing Devices
+* Event Viewer
+* File Explorer
+* Firewall Management
+* Configuring Local Users and Groups
+* Viewing/Ending Processes and Creating Process Dumps
+* Registry Editing
+* Managing Scheduled tasks
+* Managing Windows Services
+* Managing Storage
+* Virtual Machines
+* Virtual Switches

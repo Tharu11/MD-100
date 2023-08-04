@@ -1,0 +1,36 @@
+Explore remote access
+
+
+Windows helps users improve their productivity, regardless of their location, or that of the data they need.
+Windows supports the use of virtual private networks (VPN) to enable users to access their work environments from anywhere they connect.
+
+-Explore virtual private networks-
+
+Two types of VPN connections
+* Remote access
+* Site-to-site
+
+Properties of VPN connections
+* Point-to-Point Tunneling Protocol (PPTP)
+* Layer Two Tunneling Protocol with IPsec (L2TP/IPsec)
+* Secure Socket Tunneling Protocol (SSTP)
+* Internet Key Exchange version 2 (IKEv2)
+
+All VPN connections, share some common characteristics:
+* Encapsulation
+* Authentication
+* Data encryption
+
+Conditional Access Framework
+* User or group membership
+* IP Location information
+* Device
+* Application
+* Real-time and calculated risk detection.
+* Microsoft Defender for Cloud Apps
+
+Windows Information Protection
+* Always On
+* App-triggered VPN
+* Traffic filters
+* LockDown VPN

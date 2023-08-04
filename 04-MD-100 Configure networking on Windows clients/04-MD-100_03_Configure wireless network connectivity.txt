@@ -1,0 +1,72 @@
+Configure wireless network connectivity
+
+
+An increasing number of devices use wireless connections as the primary method for accessing corporate intranets and the Internet.
+Additionally, many users have come to expect wireless infrastructure in a corporate workplace.
+As a result, a good working knowledge of wireless connectivity is a requirement for today’s networking environment.
+
+-Examine wireless network technologies-
+
+Wireless  network topologies
+* Infrastructure
+* Ad hoc
+
+Wireless security
+* Wired Equivalent Privacy (WEP)
+* Wi-Fi Protected Access (WPA)
+* WPA2
+* WPA3
+
+-Configure Wi-Fi settings and profiles-
+
+Configuring Wi-Fi Settings/Profile
+Connect to a wireless network
+1. Tap the wireless network icon on the notification area to see a list of available wireless networks.
+2. Tap the network of your choice.
+3. Tap Connect.
+4. When prompted, enter the security information required by the wireless hub to which you're connecting your device, and then tap Next.
+
+Configure wireless networks
+* Open Settings.
+* Select Network & Internet.
+* Select Wi-Fi.
+* On the Wi-Fi page, choose the following options:
+* At the top of the page, select Manage known networks
+* On the Manage known networks page, tap the network you want to manage.
+* Tap to view Properties or Forget the network.
+* Configure advanced wireless properties
+
+From the Network and Sharing Center, you also can configure advanced wireless properties:
+1. In the Network and Sharing Center, tap the name of your wireless network adapter on the right.
+2. In the Wi-Fi Status dialog box, you can view the properties of your wireless connection.
+3. Tap Wireless Properties to view additional information, including the security settings of the connection.
+
+Near Field Communication
+* Add an NFC smart tag to their printer, or purchase printers with NFC built in.
+* Enable the following connection types to be used: Universal Naming Convention (UNC), Web Services on Devices (WSD), and Wi-Fi Direct.
+* Optionally, use the PowerShell cmdlet Write-PrinterNfcTag to provision an NFC tag with information about a printer.
+
+-Configure wireless display with Miracast-
+
+Add the display to complete the connection
+* Swipe in from the right edge of the screen, and then tap Devices. (If you're using a mouse, point to the lower-right corner of the screen, move the mouse pointer up, and then select Devices.)
+* Tap or select Project, and then tap or select Add a wireless display.
+* Choose the wireless display in the list of devices found, and follow the instructions on the screen.
+
+Project your screen go a wireless display
+
+To project your screen:
+1. Swipe in from the right edge of the screen, and then tap Devices. (If you're using a mouse, point to the lower-right corner of the screen, move the mouse pointer up, and then select Devices.)
+2. Tap or select Project, and then tap or select the wireless display you want.
+To choose what you see on each screen:
+1. Swipe in from the right edge of the screen, and then tap Devices. (If you're using a mouse, point to the lower-right corner of the screen, move the mouse pointer up, and then select Devices.)
+2. Tap or select Project, and then choose one of these options:
+  
+  * PC screen only. You’ll see everything on your PC. (When you're connected to a wireless projector, this option changes to Disconnect.)
+   * Duplicate. You’ll see the same things on both screens.
+   * Extend. You'll see everything spread over both screens, and you can drag and move items between the two.
+   * Second screen only. You’ll see everything on the connected screen. Your other screen will be blank.
+
+Disconnect from a wireless display
+1. Swipe in from the right edge of the screen, and then tap Devices. (If you're using a mouse, point to the lower-right corner of the screen, move the mouse pointer up, and then select Devices.)
+2. Tap or select Project, and then tap or select Disconnect.

@@ -1,0 +1,35 @@
+Explore name resolution
+
+
+Windows devices communicate over a network by using names in place of IP addresses.
+Devices use name resolution to find an IP address that corresponds to a name, such as a host name. 
+
+-Explain how name resolution works-
+
+Methods for resolving names
+* Locate domain controllers and global catalog servers
+* Resolve IP addresses to host names
+* Locate a mail server for email delivery
+
+Depending on the configuration, Windows resolves host names by performing the following actions:
+1. Checking whether the host name is the same as the local host name.
+2. Searching the DNS resolver cache which is populated from the local Hosts file.
+3. Sending a DNS request to its configured DNS servers.
+
+-Explore the domain name system-
+
+Structure of DNS
+* Forward lookup zones
+* Reverse lookup zones
+
+How names are resolved with DNS
+* A workstation queries the local DNS server for the IP address www.microsoft.com.
+* If the local DNS server does not have the information, it queries a root DNS server for the location of the .com DNS servers.
+* The local DNS server queries a .com DNS server for the location of the microsoft.com DNS servers.
+* The local DNS server queries the microsoft.com DNS server for the IP address of www.microsoft.com.
+* The microsoft.com DNS server returns the IP address of www.microsoft.com to the local DNS server.
+* The local DNS server returns the result to the workstation.
+
+Interpreting NSLookup output
+* Interactive
+* Noninteractive

@@ -1,0 +1,103 @@
+Configure IP network connectivity
+
+
+Connecting a Windows client to a network has become a typically automatic process.
+When Windows is installed, the default network drivers and settings are typically enough to get connected and locate a server or router that governs the network environment and provides the necessary information to the client connected to the local network.
+
+-Explore Windows network configuration-
+
+From within Ethernet or Wi-Fi
+* Change adapter options
+* Change advanced sharing options
+* Launch the Network and Sharing Center
+* Configure Internet options
+* Configure Windows Firewall
+
+From within Wi-Fi
+   * View available networks
+   * View hardware properties
+   * Manage known networks
+   * Configure Hotspot 2.0 networks
+
+Network and Sharing Center
+   * Change advanced sharing settings
+   * Internet Options
+   * Windows Firewall
+   * Network and Internet Troubleshooting Wizard
+
+-Explore IPv4 settings-
+
+Components of an IPv4 address
+
+IPv4 uses 32-bit addresses. If you view an IPv4 address in its binary format, it has 32 characters as the following example shows:
+11000000101010000000000111001000
+
+IPv4 divides the address into four octets, as the following example shows:
+11000000.10101000.00000001.11001000
+
+To make the IP addresses more readable, binary representation of the address typically shows it in decimal form, as the following example shows:
+192.168.1.200
+
+In conjunction with a subnet mask, the address identifies:
+   * The computer’s unique identity, which is the host ID.
+   * The subnet on which the computer resides, which is the network ID.
+
+-Define subnets for IPv4 networks-
+
+By using subnets, you can:
+   * Use a single Class A, B, or C network across multiple physical locations.
+   * Reduce network congestion by segmenting traffic and reducing broadcasts on each segment.
+   * Overcome the limitations of current technologies, such as exceeding the maximum number of hosts that each segment can have.
+
+-Implement automatic IPv4 addressing-
+
+Static configuration
+   * IPv4 address
+   * Subnet mask
+   * Default gateway
+   * Domain Name System (DNS) server
+
+DHCPv4
+   * Include resilience in your DHCP service design so that the failure of a single server does not prevent the service from functioning.
+   * Configure the scopes on the DHCP server carefully. If you make a mistake, it can affect the whole network, and it can prevent communication.
+
+-Examine tools for troubleshooting network connections-
+
+Windows includes a number of tools that you can use to diagnose network problems, including:
+   * Event Viewer
+   * Windows Network Diagnostics
+   * IPConfig
+   * Ping
+   * Tracert
+   * NSLookup
+   * Pathping
+   * Windows PowerShell
+
+-Examine IPv6 addressing-
+
+Benefits of IPv6
+   * Large address space
+   * Hierarchical addressing and routing infrastructure
+   * Stateless and stateful address configuration
+   * Required support for Internet Protocol security (IPsec)Restored end-to-end communication
+   * Prioritized delivery
+   * Support for single-subnet environments
+   * Extensibility
+
+
+IPv6 address types
+   * Unicast
+   * Global unicast addresses
+   * Link-local addresses
+   * Unique local unicast addresses.
+   * Multicast
+   * Anycast
+
+
+-Explore IPv6 in Windows client-
+
+
+Windows dual stack
+   * Shared transport and framing layer.
+   * Shared filtering for firewalls and IPsec.
+   * Consistent performance, security, and support for both IPv6 and IPv4.
