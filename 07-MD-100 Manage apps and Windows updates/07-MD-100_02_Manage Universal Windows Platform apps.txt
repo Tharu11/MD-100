@@ -1,0 +1,33 @@
+Manage Universal Windows Platform apps
+
+The Microsoft Store is where you acquire Universal Windows apps.
+Typically, these apps do not consume much memory or have excessive processor demands.
+In Windows 8.1, Universal Windows apps run in full-screen mode in the new Windows UI.
+In Windows 10 and later, Universal Windows apps run in resizable windows similar to traditional desktop apps.
+
+-Compare Microsoft Store and Microsoft Store for Business-
+
+Universal Windows apps
+Locating Universal Windows apps
+Installing UNiversal Windows apps
+Updating UNiversal Windows apps
+Installing Universal Windows apps on multiple devices
+
+-Manage access to Microsoft Store apps-
+
+Preventing users from installing applications from the Microsoft Store
+To disable user access to the Microsoft Store, perform the following procedure:
+1. Run regedit.exe.
+2. Navigate to HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore. (If the WindowsStore key is not there, you will need to create it.)
+3. Create a new DWORD value named RemoveWindowsStore, and change the value to 1.
+4. Before this setting can take effect, you must restart the computer and sign back in.
+
+-Configure assigned access to a single store-
+
+To restrict a user account to run a single Universal Windows app, perform the following procedure:
+1. From the Start menu, select Settings.
+2. Select Accounts, and then select Other people.
+3. In the right pane, select Set up assigned access.
+4. Select Choose an account, and then select the account that you want to restrict.
+5. Select Choose an app, and then select the installed application to which you want to restrict the account.
+6. Sign out from the computer to make the changes effective.

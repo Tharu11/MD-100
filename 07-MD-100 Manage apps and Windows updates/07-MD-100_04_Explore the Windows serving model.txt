@@ -1,0 +1,18 @@
+Explore the Windows servicing model
+
+To keep computers that are running Windows client stable and protected, you must update them regularly with the latest security updates and fixes.
+Windows Update enables you to download and install important and recommended updates automatically.
+
+-Examine the Windows servicing model-
+
+Windows as a service
+* Feature updates that install the latest new features, experiences, and capabilities on devices that are already running Windows 10 and later.
+* Quality updates that focus on the installation of security fixes and other important updates. 
+
+-Examine Windows Update options-
+
+Servicing Tools
+* Windows Update
+* Windows Server Update Services (WSUS)
+* Windows Update for Business
+* Configuration Manager

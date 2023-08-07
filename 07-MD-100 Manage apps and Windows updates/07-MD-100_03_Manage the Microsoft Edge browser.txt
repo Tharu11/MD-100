@@ -1,0 +1,92 @@
+Manage the Microsoft Edge browser
+
+
+Microsoft Edge is Microsoft's internet browser application
+It is included with Windows 10 and later, but is also available for Windows 8.1, macOS, iOS, and Android.
+Microsoft Edge replaces the previous browser application for Windows, Internet Explorer.
+The Microsoft Edge browser provides a consistent browsing interface across devices, including phones, tablets, and laptops.
+Microsoft Edge also provides a feature called IE Mode, which provides backwards compatibility for websites that may contain legacy features developed specifically for Internet Explorer.
+
+-Examine the Microsoft Edge browser-
+
+Pinned tabs and toolbars
+* Favorites
+* Collections
+* Downloads
+* Browser history
+* Downloads
+* Extensions
+* Performance
+
+Synchronization of settings
+* Favorites
+* Passwords
+* Addresses and more (form-fill)
+* Collections
+* Settings
+* Open tabs
+* Extensions
+
+Pivot between profiles
+Paste and go
+Web notifications
+Immersive Reader (Reading view)
+
+Additional new or improved features
+* Better accessibility features
+* Improved battery life
+* Better browsing experience in popular websites as a result of improved HTML5 compatibility and now based on Chromium
+* Improved security by using kernel attack protection, which makes attacks on the kernel less successful
+* Better management of favorites including creating folders for favorites and importing favorites from other browsers
+* Compatible sites can use Windows Hello to improve user authentication for a faster sign in experience
+
+Options and settings
+* New InPrivate window.
+* Zoom. 
+* Find on page.
+* Print. 
+* Extensions.
+* Help and feedback > What's new and tips
+* Settings (Appearance, Profiles,Privacy and services, Phone and other devices)
+
+-Configure Microsoft Edge-
+
+Setting mandatory and recommended policies
+* To configure a mandatory policy, open the Group Policy Editor and go to (Computer Configuration or User Configuration) > Policies > Administrative Templates > Microsoft Edge.
+* To configure a recommended policy, open the Group Policy Editor and go to (Computer Configuration or User Configuration) > Policies > Administrative Templates > Microsoft Edge – Default Settings (users can override).
+
+-Examine privacy features in Microsoft Edge-
+
+InPrivate browsing
+Tracking protection
+
+Clear browsing data
+* Browsing history.
+* Download history.
+* Cookies and other site data.
+* Cached images and files.
+* Passwords and Autofill form data. 
+
+-Manage Microsoft Edge extensions-
+
+Microsoft and other software vendors have released extensions in various categories. Some of the categories of extensions include:
+   * Translation
+   * Password management
+   * Ad blocking
+   * Web clippers
+   * Page analyzing
+   * Web shop improvements
+
+You can install extensions by performing the following steps:
+   1. Open Microsoft Edge.
+   2. On the Settings and More menu (the ellipsis, ... , in the top-right corner), and select Extensions.
+   3. In the Extensions dialog box, select Open Microsoft Edge Add-ons.
+   4. In the Edge Add-ons site, select the extension that you want to install.
+
+-Explain Microsoft Edge Insider channels-
+
+Installing Channels
+The following steps are an example of configuring a client configured for automatic updates to switch to the Extended Stable channel using Group Policy:
+   1. Open the local Group Policy Editor and go to Computer Configuration > Administrative Templates > Microsoft Edge Update > Applications > Microsoft Edge.
+   2. Select Target Channel override and then select Enabled.
+   3. Under Options, select Extended Stable from the Policy dropdown list.

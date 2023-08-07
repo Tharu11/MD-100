@@ -1,0 +1,84 @@
+Provide apps to users
+
+
+In your organization, you may face scenarios in which certain app-deployment methods are better for your organization than other methods.
+In this module, you'll learn about traditional app-deployment methods and methods that you can use to help to automate app deployment.
+
+-Explore types of Windows apps-
+
+Desktop apps
+* Launching an .exe or .msi file from either product media, network location share, or downloaded from a website.
+* As a package distributed from application management solution such as Endpoint Configuration Manager, typically used to automate & manage installations in an organization.
+
+Universal Windows Platform apps
+* More Secure.
+* Cross-device Windows support.
+* Easy Distribution. 
+* Private Distribution.
+
+App-V apps
+* Run multiple versions of applications.
+* Minimize application conflict. 
+* Simplify application removal.
+* Simplify application upgrades. 
+
+RemoteApp apps
+* Insufficient client hardware. 
+* Incompatible OS.
+* BYOD scenarios.
+
+-Examine methods for deploying desktop apps-
+
+Methods for deploying desktop apps include the following:
+* Manual installation.
+* Group Policy.
+* Microsoft Endpoint Configuration Manager.
+* Microsoft Intune.
+* Virtualized applications.
+* Remote applications.
+* Inclusion in a Windows operating system image.
+
+-Install desktop apps manually-
+
+The Windows Installer service
+Setup.exe files compared to MSI files
+* An EXE file provides users with more control over the installation process.
+* An EXE file actually triggers one or more MSI files.
+* An EXE file does all this checking and abstracts away some of the complexity of installing your program.
+* With an EXE file, you can optionally build a custom UI. 
+* No leftover artifacts when uninstalling apps that were installed using an MSI package.
+
+-Automate desktop app installation-
+
+Automating installation by using Group Policy
+* The target computers must belong to an AD DS domain.
+* You must package the software in the Windows Installer .msi file format.
+* User and computer accounts can be the targets of an app deployment.
+* You can target a deployment at the domain level, the site level, or the organizational unit (OU) level.
+
+Group Policy software deployment supports the following deployment types:
+* Assign. 
+* Publish. 
+
+Group Policy software deployment has the following drawbacks:
+* It can be difficult to determine whether a deployment is successful. 
+* There is no prerequisite checking.
+* There is no installation schedule.
+
+Installation by using Endpoint Configuration Manager
+* Collections.
+* Multiple deployment types.
+* Reporting. 
+* Wake on LAN (WOL). 
+* Software inventory, software metering, and Asset Intelligence.
+
+-Install Microsoft 365 apps-
+
+Microsoft 365 deployment options
+* Click-to-run
+* Configuration Manager.
+* Microsoft Intune.
+* The Office Deployment Tool (ODT).
+* App-V.
+* Remote Desktop Service (RDS).
+* Group Policy.

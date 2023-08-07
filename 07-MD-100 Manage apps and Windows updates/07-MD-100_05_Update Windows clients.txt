@@ -1,0 +1,75 @@
+Update Windows clients
+
+To utilize Windows Update effectively, you must be aware of the configuration options that it provides, and you must be able to guide users on how to configure these options.
+
+-Examine Windows Update settings in Windows clients-
+
+From the Windows Update tab, you can configure the following settings:
+* Check for updates. 
+* Update history.
+* Change active hours.
+* Restart options.
+
+From the Advanced options, you can configure the following settings:
+* Receive updates for other Microsoft products when I update Windows.
+* Pause Updates.
+* Defer feature updates.
+* Choose when updates are installed. 
+
+From the Delivery Optimization tab, you can configure the following:
+* Allow downloads from other PCs.
+* Selecting Advanced options on the Delivery Optimization page allows you to restrict the bandwidth available for downloading updates and uploading updates to other PCs.
+
+-Use a WSUS server to deploy updates-
+
+The WSUS update management process
+* Assess.
+* Identify.
+* Evaluate and plan.
+* Deploy. 
+
+-Update clients using Windows Update for Business-
+
+Specifically, Windows Update for Business allows for:
+* The creation of deployment rings, where administrators can specify which devices go first in an update wave, and which ones will come later (to ensure any quality bars are met).
+* Selectively including or excluding drivers as part of Microsoft-provided updates.
+* Integration with existing management tools such as Windows Server Update Services (WSUS), Configuration Manager, and Microsoft Intune.
+* Peer-to-peer delivery for Microsoft updates, which optimizes bandwidth efficiency and reduces the need for an on-site server caching solution.
+
+Windows Update for Business provides the following types of updates in Windows:
+* Feature Updates.
+* Quality Updates.
+* Driver updates.
+* Microsoft product updates. 
+
+-Use Group Policy settings to configure Windows Update-
+
+Computer Configuration/Administrative Templates/Windows Components/Windows Update. You can configure the following settings:
+* Configure Automatic Updates.
+* Specify intranet Microsoft update service location.
+* Do not connect to any Windows Update Internet locations. 
+* Turn off auto-restart for updates during active hours. 
+* Windows Update for Business. 
+
+Computer Configuration/Administrative Templates/Windows Components/Data Collection and Preview Builds. You can configure the following settings:
+* Toggle user control over Insider builds. 
+* Allow Telemetry.
+* Disable pre-release features or settings.
+
+Computer Configuration/Administrative Templates/Windows Components/Delivery Optimization node contains the following settings:
+* Download Mode. 
+* Group ID.
+* Max Upload Bandwidth.
+* Max Cache Size.
+* Max Cache Age. 
+
+-Troubleshoot Windows updates-
+
+Uninstall updates
+* Open the Settings app, select Update & security, select Windows Update, select Update history, and then select Uninstall updates.
+* Right-click the suspect update, and then select Uninstall.
+
+Uninstall drives
+* Open Device Manager.
+* Locate the device driver with the problem driver installed, right select it, and then select Uninstall.
+* In the Uninstall dialog box, select the Delete the driver software for this device check box, if available.
