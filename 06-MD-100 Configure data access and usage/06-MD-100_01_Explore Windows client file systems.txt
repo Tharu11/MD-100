@@ -1,0 +1,31 @@
+Explore Windows client file systems
+
+
+Before you can store data on a volume, you must first format the volume.
+To format a volume, you must select the file system that the volume should use. 
+The file system determines how data is stored on the storage device.
+Windows supports different file systems that each provide advantages and disadvantages.
+
+-Examine the File Allocation Table (FAT) file system-
+
+Windows client supports three versions:
+* FAT
+* FAT32
+* exFAT
+
+-Examine the New Technology File System (NTFS)-
+
+The NTFS file system
+* Reliability
+* Security
+* Data confidentiality
+* Limit storage growth
+* Provide additional space
+* Support for large volumes
+* Auditing
+* Advanced features
+
+Disadvantages to using NTFS
+* Lack of file encryption
+* Unable to format a floppy disk
+* File system conversion

@@ -1,0 +1,63 @@
+Configure and manage file access
+
+You can control user access to files by configuring file and folder permissions.
+If file permissions are supported by the file system, such as NTFS or ReFS, you can configure permissions at different levels.
+You also can assign permissions explicitly or you can inherit them from the higher levels.
+If you're unsure whether you can inherit permissions, you can use the effective permissions feature to review what type of permissions a user or group has to a file.
+
+-Explore tools used for managing files and folders-
+
+File Explorer
+* Creating files and folders.
+* Accessing files and folders.
+* Managing properties of files and folders.
+* Searching for content in files and folders.
+* Previewing contents of files and folders.
+
+Command prompt
+
+Command                 Purpose
+* cd, chdir        Changes the parent directory.
+* md, mkdir        Creates a directory.
+* del, erase       Deletes one or more files.
+* Move             Moves one or multiple files.
+* Dir              Displays a list of files and subdirectories in a directory.
+* Icacls           Displays or modifies permissions by using access control lists
+
+-Understand file and folder permissions-
+
+Permissions example
+
+Types of permissions
+* Basic permissions
+* Advanced permissions
+
+-Understand permission inheritance-
+
+Two ways that you can assign permissions to files and folders
+* Explicit permissions
+* Inherited permissions
+
+-Implement conditions to limit file and folder access-
+
+When you specify conditions:
+You use a Group condition so that you can specify that the permission will apply to the user based on the following group-membership rules:
+   * Member of Any of the specified groups.
+   * Member of Each of the specified groups.
+   * Not Member of Any of the specified groups.
+   * Not Member of Each of the specified groups.
+
+You use a Device condition so that you can specify that the permission will apply if a user accesses the file from a specified computer or computers. The next unit provides more detail about this condition.
+
+-Examine permissions when copying and moving files-
+
+Effects of copying files and folders
+* When you copy a file or folder within a single volume, the copy of the folder or file inherits the permissions of the destination folder.
+* When you copy a file or folder to a different volume, the copy of the folder or file inherits the permissions of the destination folder.
+* When you copy a file or folder to a volume that doesn't support permissions (non-NTFS and non-ReFS), such as a FAT file system, the copy of the folder or file loses its permissions. This is because the target volume doesn't support permissions.
+
+The Copy command isn't aware of the security settings on folders or files.
+* Xcopy has the /o switch to include Ownership and ACL settings.
+* Robocopy has several switches that cause security information to be copied:
+   * /Copy:copyflag(s) the default setting is the equivalent of /Copy:DAT where D=Data, A=Attributes, and T=Timestamps. You can add the S flag where S=Security, such as NTFS ACLs.
+   * /Sec is the equivalent of /Copy:DATS.

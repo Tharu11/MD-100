@@ -1,0 +1,79 @@
+Manage user files
+
+An organization should have a defined strategy for how files should be stored and managed.
+Standard best practices are for files to be stored on a file server, cloud service, or some form of redundant storage to ensure data is not lost.
+Client devices eventually suffer hardware failure, as well as the risk of the device getting stolen or data corruption.
+End users typically don’t take adequate steps on their own to ensure data is not lost during such an event.
+
+-Understand Windows Libraries-
+
+Using libraries
+* Documents
+* Saved Pictures
+* Videos
+* Music
+* Camera Roll
+* Pictures
+
+-Evaluate OneDrive-
+
+OneDrive for users to store their data in solve three significant problems
+* Data loss
+* Data migration
+* Anywhere access
+
+OneDrive features
+* Known Folder Move
+* OneDrive Files On-Demand
+* Files Restore
+* Recycle Bin
+* Auditing & Reporting
+* Encryption of data in transit and at rest
+
+-Enable OneDrive-
+
+Microsoft account by performing the following procedure:
+* From the taskbar, open File Explorer, and then select the OneDrive node.
+* In the Welcome to OneDrive Wizard, select Get started.
+* In the Sign in page, type your Microsoft account and password.
+* After you successfully sign in, in the Introducing your OneDrive folder page, you can apply the default local folder location, which is C:\users\username\OneDrive. Alternatively, you can select another location by selecting Change. However, if you accept the default location, simply select Next.
+* If you select Change, the Browse for folder window appears, where you can select a different location from a file tree or create a new folder. After selecting the location, select OK, and then Next.
+* The Sync your OneDrive files to this PC page shows all your OneDrive folders, with a check box next to each. 
+
+You can leave the folder check boxes selected to sync them, or clear the folder check boxes to skip syncing. The bottom of the window indicates how much free space you have remaining on the local hard drive. After making your selections, select Next.
+* On the Fetch your files from anywhere page, select Done to sync your OneDrive contents to your hard drive.
+
+You can manage, share, and synchronize your OneDrive files and folders from the OneDrive node in File Explorer.
+* Share a OneDrive link
+* More OneDrive sharing options
+* View online
+* Always Keep On This Device (Checked)
+* Always Keep On This Device (Unchecked)
+* Free Up Space
+
+Restricting access to OneDrive
+You can accomplish this by using Group Policy. In the appropriate GPO, go to the Computer Configuration\Policies\Administrative Templates\Windows Components\OneDrive node, and enable the Prevent the usage of OneDrive for file storage policy setting.
+
+-Examine Work Folders-
+
+Components of Work Folders
+* A Work Folders server
+* A sync share
+* User devices
+
+Practical applications
+* Provide a single point of access to work files from a user's work and personal computers and devices
+* Access work files while offline, and then sync with the central file server when the PC or device next has Internet or intranet connectivity
+* Deploy with existing deployments of Folder Redirection, Offline Files, and home folders
+* Use existing file server management technologies, such as file classification and folder quotas, to manage user data
+* Specify security policies to instruct user's PCs and devices to encrypt Work Folders and use a lock screen password
+* Use Failover Clustering with Work Folders to provide a high-availability solution
+
+Deploying Work Folders
+* Obtain SSL certificates
+* Create DNS records
+* Install Work Folders on file servers
+* Binding the SSL certificate on the sync servers
+* Create security groups for Work Folders
+* Optionally delegate user attribute control to Work Folders administrators
+* Create sync shares for user data

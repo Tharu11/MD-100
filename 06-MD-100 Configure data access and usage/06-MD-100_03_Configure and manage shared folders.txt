@@ -1,0 +1,65 @@
+Configure and manage shared folders
+
+Collaboration is an important part of an administrator’s job.
+Your team might create documents that only team members can share, or you might work with a remote team member who needs access to your team’s files.
+Because of collaboration requirements, you must understand how to manage shared folders in a network environment.
+Sharing folders enables users to connect to a shared folder over a network, and to access the folders and files that it contains. 
+
+-Explore shared folders-
+
+Shared folders permissions
+* Read.
+* Change.
+* Full Control.
+
+Basic sharing permissions are simplified and can have one of two options:
+* Read.
+* Read/Write.
+
+Connecting to a shared folder
+You can share folders in several ways, including by using:
+* The Shared Folders snap-in
+* File Explorer
+* A command prompt
+* Windows PowerShell cmdlets
+
+-Examine methods available for connecting to share folders-
+
+Connecting to a shared folder
+You can share folders in several ways, including by using:
+* The Shared Folders snap-in
+* File Explorer
+* A command prompt
+* Windows PowerShell cmdlets
+
+-Sharing folders by using File Explorer-
+
+* Using the Share with option from the shortcut menu or ribbon (also called Network File and Folder Sharing on the Sharing tab).
+* Selecting Advanced security from the Sharing tab.
+
+-Examine shared folder properties-
+Share properties control share behavior, including:
+* how users can view and connect to a share
+* how many users can access a share simultaneously
+* which share permissions will be effective when users access the data through a share
+* the offline settings for the share data
+
+You can configure the following basic properties for a share by using Advanced Sharing:
+* Share name
+* Number of simultaneous users
+* Caching/offline settings
+* Permissions
+
+-Combine shared folder and NTFS permissions-
+
+When you grant shared folder permissions, the following rules apply:
+* Except when using the Share in Network File and Folder Sharing, the Everyone group has the Read shared folder permission.
+* Users must have appropriate file system permissions for each file and subfolder in a shared folder to access those resources, in addition to appropriate shared folder permissions.
+* When you combine file-system and shared-folder permissions, the resulting permission is the most restrictive one of the effective permissions between the two types. Typically, this is the highest common denominator of the file-system and shared-folder permissions.
+* When a user attempts to connect to content through a share, the share permissions on a folder apply to that folder, all of its files and sub-folders, and all files in those sub-folders.
+
+The following analogy can help you understand what happens when you combine file system and share permissions:
+* If you want to access a shared folder’s files over a network, you must go through the shared folder.
+* If a share permission is set to Read, the most that you can do when connecting through a shared folder is read the file, even if the individual file system permission is set to Full Control. All file system permissions that are less restrictive than the share permissions filter out, so that only the most restrictive permissions remain – in this case, the Read permission
+* If you configure the share permission to Change, you are allowed to read or modify the share’s data. If the file system permission is set to Full Control, the share permissions filter the effective permission to Modify.
+* Alternatively, if the share permission is set to Full Control, but the users NTFS permissions for the folder are set to Read, the effective permission is Read.
