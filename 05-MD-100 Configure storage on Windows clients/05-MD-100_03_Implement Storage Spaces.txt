@@ -1,0 +1,32 @@
+Implement Storage Spaces
+
+Managing multiple physical disks attached directly to a computer can often be a tedious task for administrators. 
+To overcome this problem, many organizations use SANs that group physical disks together.
+SANs require specialized configuration and sometimes specialized hardware, which makes them expensive
+To overcome these issues, you can use the Storage Spaces feature.
+It pools disks together, and presents them to the operating system as a single disk.
+
+-Explore Storage Spaces-
+
+To create a highly available virtual disk, you need the following:
+* Physical disk.
+* Storage pool.
+* Storage space.
+* Disk drive.
+
+-Examine features of Storage Spaces-
+
+Storage layout
+* Simple.
+* Two-way and three-way mirrors.
+* Parity.
+
+Provisioning schemes
+* Thin provisioning space.
+* Fixed (or “thick”) provisioning space. 
+
+-Examine scenarios for Storage Spaces-
+
+Thin provisioning storage
+Reliable storage
+High-performance storage

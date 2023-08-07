@@ -1,0 +1,32 @@
+Maintain disks and volumes
+
+
+The storage functionality in Windows can give you an overview of what types of files the volumes are storing.
+When you first create a volume, you typically create new files and folders on a volume’s available free space in contiguous blocks.
+This provides an optimized file system environment. As the volume becomes full, the availability of contiguous blocks diminishes.
+
+-Monitor storage usage-
+
+Storage
+* System & reserved
+* Apps & features
+* Documents
+* Pictures
+* Music
+* Videos
+* Mail
+* OneDrive
+* Desktop
+* Maps
+* Other people
+* Temporary files
+* Other
+
+-Understand disk optimization-
+
+Hard disk drives and defragmentation
+
+Types of fragmentation
+* Internal fragmentation
+* External fragmentation
+* Data fragmentation

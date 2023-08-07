@@ -1,0 +1,118 @@
+Manage storage on Windows clients
+
+
+Although you can save files to the local hard disk in Windows client, several additional storage options are available. 
+This module describes some of the different storage technologies, including different types of server-based and cloud-based storage.
+You can use disk management tools to perform disk-related tasks, such as creating and formatting partitions and volumes, assigning drive letters, and resizing disks.
+
+
+-Understand storage options- 
+
+Local hard disk
+
+Advantage of using local hard disks include:
+* Availability
+* Performance
+
+Disadvantage of using local hard disks include:
+* Backup
+* Physical failures
+
+Virtual hard disk
+
+Advantage of using virtual hard disks include:
+* Portability
+* Backup
+
+Disadvantage of using virtual hard disks include:
+* Performance
+* Physical failures
+
+-Service-based storage-
+
+Advantage of using server-based storage include:
+* Redundancy
+* Backup
+* Performance
+
+Disadvantage of using server-based storage include:
+* Availability
+* Performance
+
+Examine network and cloud storage options
+* NAS
+* SAN
+* Cloud based storage
+* OneDrive
+* Azure storage
+
+-Describe Master Boot Record and Grid Partition Table partitions-
+
+MBR disks
+Features of MBR dials
+* Four partitions on each disk
+* A 2 TB-maximum partition size
+* No redundancy provided
+
+GPT disks
+Features of GPT disks
+* 128 partitions per disk
+* 18 exabytes of volume size
+* Redundancy
+
+-Describe dynamic disks-
+
+Basic disks vs. dynamic disks
+
+Disk type (Basic disks)
+Advantages
+* Compatible with most operating systems.
+* Convert to dynamic disk without data loss.
+
+Disadvantages
+* Only uses contiguous space on one disk.
+* Limited number of partitions on MBR disks.
+
+Disk type (Dynamic disks)
+Advantages
+* Multi Disk volumes.
+* Fault-tolerant volumes.
+* 1024 volumes on MBR disks.
+Disadvantages
+* Only compatible with Windows.
+* Does not convert to basic disk without data loss.
+
+-Explore disk management tools-
+
+Disk Management
+DiskPart
+Windows PowerShell 5.0
+
+Disk Management
+* Simple partition creation
+* Disk conversion
+* Extend and shrink partitions 
+
+DiskPart
+* List disk
+* Select disk number
+* Convert gpt
+
+Windows PowerShell
+* Get-Disk
+* Clear-Disk
+* Initialize-Disk
+* Set-Disk
+* Get-Volume
+
+-Describe simple volumes-
+
+Simple volume characteristics
+* Not fault-tolerant. Disk failure leads to volume failure.
+* Volume I/O performance is the same as disk I/O performance.
+
+Compare mirrored, spanned and striped volumes
+
+Mirrored volume
+Spanned volume
+Striped volume
