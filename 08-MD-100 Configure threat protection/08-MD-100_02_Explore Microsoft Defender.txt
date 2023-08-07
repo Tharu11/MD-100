@@ -1,0 +1,71 @@
+Explore Microsoft Defender
+
+Malware might show up on your organization’s computers and devices, despite your efforts to prevent it.
+Unwanted traffic often comes from Internet-based sources, but traffic from a local area network (LAN) or wide area network (WAN) also can compromise your network.
+
+-Explain Microsoft Defender Antivirus-
+
+Additional features in Microsoft Defender Antivirus
+* Block at First Sight.
+* Detecting and Block Potentially Unwanted Applications.
+* Microsoft Defender for Endpoint. 
+
+Understand Firewalls
+Depending on your firewall’s sophistication, you can configure it to block or allow traffic based on the:
+* Traffic source address
+* Traffic destination address
+* Traffic source port
+* Traffic destination port
+* Traffic protocol
+* Packet contents
+
+-Explain Windows Defender Firewall-
+
+Firewall exceptions
+To help decrease security risks when you open communications:
+* Only allow a program or open a port when necessary.
+* Remove programs from the list of allowed programs, or close ports when you do not require them.
+* Never allow a program that you do not recognize to communicate through the firewall.
+
+-Examine network location profiles-
+
+There are three types of network location:
+* Domain networks.
+* Private networks.
+* Guest or public networks.
+
+-Explain Windows Defender Firewall with Advanced Security-
+
+Windows Defender Firewall with Advanced Security rules
+* Inbound
+* Outbound
+* Connection security rules
+
+Inbound and outbound rule types
+* Program rules.
+* Port rules.
+* Predefined rules.
+* Custom rules.
+
+-Connection security rules-
+
+You can create the following connection security rule types:
+* Isolation rules.
+* Authentication exemption rules.
+* Server-to-server rules.
+* Tunnel rules.
+* Custom rules.
+
+-Monitoring-
+
+Windows PowerShell commands
+You can use the following Windows PowerShell cmdlets to manage Windows Defender Firewall rules:
+* Get-NetFirewallRule.
+* Copy-NetFirewallRule.
+* Enable-NetFirewallRule.
+* Disable-NetFirewallRule.
+* New-NetFirewallRule. 
+* Remove-NetFirewallRule.
+* Rename-NetFirewallRule.
+* Set-NetFirewallRule. 
+* Show-NetFirewallRule.

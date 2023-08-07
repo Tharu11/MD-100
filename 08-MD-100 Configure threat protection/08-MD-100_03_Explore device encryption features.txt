@@ -1,0 +1,40 @@
+Explore device encryption features
+
+While permissions protect unauthorized access to data within the OS, they don't protect the data if it is accessed in other ways, such as if the storage media is removed from the device.
+Encryption provides an extra layer of protection against unauthorized access, when permissions alone are insufficient.
+
+-Evaluate BitLocker and TPMs-
+
+BitLocker uses a Trusted Platform Module (TPM) chip to verify the integrity of the startup process by:
+
+* Providing a method to verify that early boot file integrity has been maintained, and to help ensure that there has been no adverse modification of those files, such as with boot sector viruses or root kits.
+* Enhancing protection to mitigate offline software-based attacks. Any alternative software that might start the system does not have access to the decryption keys for the Windows operating system volume.
+* Locking the system when it is tampered with. If anyone has tampered with monitored files, the system does not start. This alerts the user to the tampering because the system fails to start as usual. In the event that system lockout occurs, BitLocker offers a simple recovery process.
+
+BitLocker does not require a TPM. However, only a computer with a TPM can provide the additional security of pre startup system-integrity verification. To determine if a computer has a TPM version 1.2 chip, perform the following steps:
+
+1. Open the Control Panel, select System and Security, and then select BitLocker Drive Encryption.
+2. In the lower left corner, select TPM Administration. The TPM Management on the Local Computer console opens. If the computer does not have the TPM 1.2 chip, the “Compatible TPM cannot be found” message displays.
+
+-Recover a BitLocker-encrypted drive-
+
+You should save the recovery information either on a USB flash drive or in AD DS, using one of these formats:
+* A 48-digit number divided into eight groups. During recovery, use the function keys to type this password into the BitLocker Recovery Console.
+* A recovery key in a format that the BitLocker Recovery Console can read directly.
+
+Scenarios where recovery is likely
+
+There are a number of situations where BitLocker recovery might become necessary, including:
+* Switching the computer's encrypted hard drive to another computer.
+* Making the BitLocker-encrypted drive subordinate to another computer to recover its data.
+* Turning the computer off during the encryption process.
+* Updating the computer’s firmware.
+* Changing the device boot order in the computer’s BIOS.
+Access Encrypting Files System
+
+-Common Scenarios for EFS-
+
+Utilizing EFS does provide advantages for protecting data from unauthorized access.
+* Protecting files on shared computers. 
+* Protecting files from privileged users.
+* Sharing encrypted files with specific users.
