@@ -1,0 +1,59 @@
+Monitor and troubleshoot Windows client performance
+
+A computer system that performs at a low efficiency level can cause workplace problems such as reducing user productivity and consequently increasing user frustration. 
+Windows has tools that can help you to determine the potential causes of poor performance, and afterwards use appropriate tools to help resolve the performance issues.
+
+-Examine key performance components in Windows client-
+
+Factors that can influence computer system performance include:
+* Access speed of the physical hard disks.
+* Memory available for all running processes.
+* Fastest speed of the processor.
+* Maximum throughput of the network interfaces.
+* Resources that the individual applications consume.
+* Faulty or poor configuration of components, which leads to the unnecessary consumption of resources.
+* Out-of-date or inappropriate drivers for system components and peripherals, including the graphics subsystem.
+
+Windows computers have four main hardware components that you should monitor:
+* Processor
+* Disk
+* Memory
+* Network
+
+-Establish a performance baseline-
+
+You can set up a baseline in the Performance Monitor to help you with the following tasks:
+* Evaluate your computer’s workload
+* Monitor system resources
+* Notice changes and trends in resource use
+* Test configuration changes
+* Diagnose problems
+
+Monitor Windows client performance
+Task Manager
+Resource Monitor
+Performance Monitor
+
+-Optimize disk and memory performance-
+
+Use the following guidelines to help to optimize disk and memory performance in your Windows computer.
+* Select a 64-bit version of Windows. 
+* Avoid shared memory video.
+* Optimize paging (Create the paging file on a different physical disk than the operating system disk,  
+
+Configure a fixed-size paging file, On non-SSD drives, ensure that the disk volume is not fragmented when you create the paging file, When you configure the paging file, ensure that its size is sufficient, Add physical memory to a computer that is paging excessively)
+* Implement faster disks
+* Consider using SSDs
+* Defragment volumes that are used heavily
+* Ensure that you enable write-caching
+* Distribute the memory load across all available disks
+
+-Configure Windows client search indexes-
+
+Contents of the Windows Search Index
+
+Windows Search indexes information as follows:
+* By default, Windows Search indexes each user’s e-mail and Documents and Settings folders (users can add custom locations like network shares). Indexing of shared folders can be turned off with Group Policy.
+* Windows Search does not index password-protected Office files.
+* Windows Search indexes e-mail and attachments in a secure environment. Indexing of attachments can be turned off with Group Policy.
+* The Windows Search index is updated automatically in the background when data is added, deleted, and modified.

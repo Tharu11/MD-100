@@ -1,0 +1,63 @@
+Explore Windows architecture
+
+When supporting Windows clients, it's important to understand the underlying fundamentals of how the Windows operating system functions.
+This module provides information about the operating system’s architecture and supported devices, and introduces students to the Windows registry.
+
+-Compare Windows client devices-
+
+Form factors
+* Desktop computers
+* Laptop computers
+* Convertible laptops
+* Tablets
+
+Factors that affect device selection
+* Battery life.
+* Processor performance
+* Screen size, resolution, and graphics performance
+* External expansion options
+* Memory
+* Storage
+
+-Examine the Windows client architecture-
+
+Operate system kernel
+
+System services
+System services include various executive services that provide distinct functions within the operating system, including:
+* The I/O Manager manages I/O.
+* The virtual memory manager controls virtualization of memory within the operating system.
+* Other components within the executive control other aspects of the operating system.
+* The application programming interface (API) sets enable Windows to support different types of apps. 
+
+The Windows Runtime (RT) APIs enable the operating system to run Microsoft Store apps, whereas Win32 and related API sets enable the operating system to run traditional desktop apps.
+Understand apps
+* Traditional desktop apps, such as Office apps, use the Win32 APIs and Microsoft .NET Framework.
+* Microsoft Store apps use the Windows RT APIs.
+
+-Examine the Windows registry-
+
+Key and subkeys
+* HKCU\Control Panel\Desktop\Wallpaper is the value (Wallpaper) that stores the name and location of a user’s desktop wallpaper.
+* HKLM\Software\Microsoft\Windows\CurrentVersion\Run is the key that contains values that relate to programs that start automatically when the computer starts and a user signs in. Typically, these programs reside in the system tray.
+
+-Use the Windows registry editor-
+
+The Registry Editor tool
+* Search the registry for a given value entry, value name, subkey, or key.
+* Create, delete, and edit keys, subkeys, and values.
+* Import entries into the registry from an external file.
+* Export entries from the registry into an external file.
+* Back up the registry (by exporting the entire registry).
+* Connect to a remote computer and manage its registry.
+
+Reg files
+After you have created the .reg file, you can import the .reg file when you:
+* Double-click the file and confirm that you want to continue.
+* Run a script that loads the file. The following command imports the settings stored in setting1.reg without prompting the user to confirm:
+* Open the Registry Editor, and use the import option to access the appropriate .reg file.
+
+Windows PowerShell
+To modify registry values, you must:
+* Use the Set-Location cmdlet to change to the appropriate registry drive.
+* Use the Set-ItemProperty cmdlet to assign a new value to the registry property.

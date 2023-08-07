@@ -1,0 +1,121 @@
+Explore support and diagnostic tools
+
+Windows provides several tools that can help you troubleshoot the Windows operating system.
+This module introduces the most important tools and provides guidance on how to use them.
+
+-Examine Task Manager-
+
+You can run Task Manager in several ways, including by:
+* Right-clicking the taskbar, and then selecting Task Manager.
+* Pressing Ctrl+Alt+Del, and then selecting Task Manager.
+* Pressing the Ctrl+Shift+Esc key combination.
+* Running taskmgr.exe at a command prompt.
+* Selecting Start, typing taskmgr, and then pressing Enter.
+
+Task Manager includes the following tabs:
+* Processes.
+* Performance.
+* App history. 
+* Startup.
+* Users.
+* Details.
+* Services.
+
+-Examine Event Viewer-
+
+Event Viewer in Windows includes the following features:
+* The ability to view multiple logs. You can filter for specific events across multiple logs, making it quicker to investigate issues and troubleshoot problems that might appear in several logs.
+* Inclusion of customized views. You can use filtering to narrow searches to only those events in which you are interested, and you then can save these filtered views.
+* The ability to configure tasks scheduled to run in response to events. You can automate responses to events. To do this, Event Viewer is integrated with Task Scheduler.
+* The ability to create and manage event subscriptions. You can collect events from remote computers, and then store them locally.
+
+Event Viewer tracks information from several different logs. These logs provide detailed information that includes:
+* A description of the event.
+* An event ID number.
+* The component or subsystem that generated the event.
+* Information, Warning, or Error status.
+* The time of the occurrence.
+* The user’s name on whose behalf the event occurred.
+* The computer on which the event occurred.
+* A link to Microsoft TechNet for more information about the event.
+
+Application and Services logs
+* Hardware Events
+* Internet Explorer
+* Key Management Service
+* Microsoft Office Alerts
+* TuneUp
+* Microsoft Azure
+* Windows PowerShell
+
+Manage logs
+* The location of the log file.
+* The maximum size of the log file.
+* Automatic backup options.
+* Permissions on the logs.
+* Behavior that occurs when the log is full.
+
+Custom views
+* The time that the event was logged.
+* Event level to display, such as errors or warnings.
+* Logs from which to include events.
+* Specific event IDs to include or exclude.
+* User context of the event.
+* Computer on which the event occurred.
+
+-Explain Performance Monitor-
+
+The Performance Monitor includes the following features:
+* Monitoring Tools.
+* The Performance Monitor
+* Data collector sets.
+* Reports.
+
+-Explain Reliability Monitor-
+
+Installation and failure reports
+* Software Installs
+* Software Uninstalls
+* Application Failures
+* Hardware Failures
+* Windows Failures
+* Miscellaneous Failures
+
+Records key events in a timeline
+* Memory problems
+* Hard-disk problems
+* Driver problems
+* Application failures
+* Operating system failures
+
+The Problem Reports and Solutions tool
+* Save reliability history
+* View all problem reports
+* Check for solutions to all problems
+* Clear the solution and problem history
+
+-Compare Process Explorer and Process Monitor-
+
+The Process Explorer and Process Monitor tools are part of the Windows Sysinternals tool suite:
+* Process Explorer. 
+* Process Monitor. 
+
+-Examine the Diagnostics and Recovery Toolset-
+
+DaRT 10 is an important part of the Microsoft Desktop Optimization Pack (MDOP), and you can use it to:
+* Recover Windows computers that are unusable or will not start up properly.
+* Diagnose the probable causes of problems.
+* Quickly repair nonstarting or locked-out computers.
+* Restore lost files, and detect and remove malware, quickly.
+* Create a DaRT recovery image (ISO or WIM) and save the image to CD, DVD, or USB bus device.
+* Use the recovery image files to deploy them locally or to a remote or recovery partition.
+
+-Explore additional tools-
+
+Sysinternals
+* Contig.
+* DiskMon. 
+* PageDefrag.
+* Process Explorer. 
+* Process Monitor.
+* Autoruns.

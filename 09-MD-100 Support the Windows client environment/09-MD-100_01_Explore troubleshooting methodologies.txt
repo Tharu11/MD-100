@@ -1,0 +1,45 @@
+Explore troubleshooting methodologies
+
+The Enterprise Desktop Support Technician (EDST) is to act as an escalation point for problems that help-desk personnel can't resolve.
+It also must support end users directly, and troubleshoot problems. However, an EDST’s responsibilities involve much more than simply fixing problems.
+Desktop Administrators will frequently work directly with the EDST.
+
+-Examine the Enterprise Desktop Support Technician role-
+
+As an EDST, you should be:
+* A good troubleshooter. An EDST can isolate an issue quickly by performing specific diagnostic tasks.
+* A knowledgeable resource. You should be familiar with relevant products, and can perform hardware and software installation tasks, system monitoring, and maintenance.
+* An effective communicator. Users may be distressed or upset, and you will need to manage these interpersonal and technical interactions simultaneously and effectively.
+* An information source. Even if you do not know the answer, you need to know where to get the answer and when to escalate a problem.
+
+-Examine the Desktop Support Environment-
+
+Workgroups
+Domains
+Cloud-based infrastructure and services
+
+Microsoft provides a number of cloud-based apps and services, including:
+* Microsoft 365. Microsoft 365 delivers online versions of the Office applications and online business collaboration tools. Creating and managing Microsoft 365 accounts and apps is a common task for tier 1 help-desk staff and a tier 2 EDST.
+* Microsoft Azure. This is a public cloud environment, and it provides a collection of Microsoft cloud services that you can use to build and operate cloud-based apps and information technology (IT) infrastructure.
+
+Azure services allow you to:
+* Create and operate cloud-based apps when you use a wide range of commonly used tools and frameworks.
+* Host workloads in the cloud infrastructure that comprise virtual machines and virtual networks.
+* Integrate cloud services with on-premises infrastructure.
+
+-Explore key stages and terminology of a troubleshooting methodology-
+
+* Classification
+* Test
+* Escalation
+* Report
+
+-Examine the process of problem reporting-
+
+Detect problems
+Encourage self-help attempts by end users
+Contact the help desk
+Detail classification and initial support
+Escalate a problem
+Resolve a problem
+Close a problem
