@@ -1,0 +1,77 @@
+Troubleshoot device driver failures 
+
+Before you troubleshoot the failure of a device driver, you need to understand the role of device drivers in Windows.
+A device driver is a small software program that allows a computer to communicate with its hardware or devices.
+A hardware device works only if its device driver is installed correctly and functions properly. 
+Device drivers are specific to operating systems, and they run with system-wide privileges.
+
+-Examine tools for managing and troubleshooting device drives-
+
+The Device Manager tool
+
+You can open Device Manager in one three ways, including by:
+* Right-clicking the Start icon, and then selecting Device Manager.
+* Selecting Start, typing Device Manager or devmgmt.msc, and then pressing Enter.
+* Selecting the Device Manager node in Computer Management.
+
+You also can perform many tasks in Device Manager, including:
+* Viewing a list of connected devices.
+* Viewing detailed properties for the connected devices. 
+* Uninstalling a device.
+* Enabling or disabling devices.
+* Troubleshooting devices.
+* Updating device drivers.
+* Rolling back drivers.
+
+Use driver roll back
+
+To roll back a driver, use the following procedure:
+1. Open Device Manager.
+2. Right-click the device to roll back, and then select Properties.
+3. In the Properties dialog box, select the Drivers tab, and then select Roll Back Driver.
+4. In the Driver Package rollback dialog box, select Yes.
+
+System Restore
+In rare cases, after you install a device or update a device driver, a computer might not start. This problem might occur because:
+* The new device or driver causes conflicts with other drivers on the computer.
+* A hardware-specific issue occurs.
+* The installed driver is damaged.
+
+-Manage signed drives-
+
+Device drivers run with system-level privileges and can access files or information on a computer. Therefore, it's critical to trust installed device drivers. Trust, in this context, includes two main principles:
+* Authenticity. 
+* Integrity.
+
+The Signature Verification tool
+To remove an unsigned device driver, follow these steps:
+1. Run Sigverif.exe to scan for unsigned drivers.
+2. Review the resulting log file.
+3. Create a temporary folder for the unsigned driver storage.
+4. Manually move any unsigned drivers from C:\WIndows\System32\Drivers into the temporary folder.
+5. Disable or uninstall the associated hardware devices.
+6. Restart the computer.
+Stage device drivers
+
+Benefits of staging driver packagesImproved security.
+
+Device drivers run as part of the operating system, so it is critical that you allow only known and authorized device drivers to run. Staging device-driver packages on Windows provides several benefits, including:
+* Improved security. 
+* Reduced support costs.
+* Better user experience. 
+
+-Stage device drivers manually-
+
+You can use the following steps to use the Pnputil.exe command-line tool to add a device driver to the Windows driver store manually:
+1. Obtain a digitally signed driver package.
+2. Sign in as Administrator, and then open a command prompt.
+3. At the command prompt, type pnputil.exe /add-driver package_name, and then press Enter.
+4. The command runs, and Windows verifies the driver’s integrity and digital signature, and then copies the driver into the driver store.
+
+-Manage the driver store-
+
+You can use the Pnputil.exe command-line tool to perform the following tasks:
+* Add a driver package to the driver store.
+* Add a driver package to the driver store, and then install it in the same operation.
+* Delete a driver package from the driver store.
+* List all driver packages in the driver store.

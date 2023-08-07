@@ -1,0 +1,75 @@
+Troubleshoot physical failures on Windows clients
+
+Hardware failures can be catastrophic unless you plan for them, as well as for data redundancy and regular backups.
+You should have procedures in place so that you can troubleshoot failed devices efficiently, particularly for your most vulnerable devices such as hard disk drives and memory. 
+You should also know the SLA that your company has with respect to device failures, and your organization’s procedure for replacing hardware components.
+If the failed component includes data, such as a hard disk drive, you might have a special process for discarding these devices to protect the stored data’s confidentiality.
+
+-Examine factors when replacing devices-
+
+SLAs
+Escalation procedures
+Issues with data security
+
+-Explore common vulnerabilities on hardware devices-
+
+Hard disk drives
+There are five main reasons why hard disk drives fail:
+* Logical failure. 
+* Mechanical failure.
+* Electronic failure.
+* Firmware failure. 
+* Bad sector. 
+
+Power supplies
+Symptoms of power supply problems can include:
+* No indicator lights, disk action, or screen display.
+* On/Off indicator lights are visible, but there is no disk action or screen display.
+* The system produces a continuous beep.
+
+Optical drives
+The media quality in optical drives is a significant factor in the length of the optical drive’s life:
+* Higher-quality media can increase a device’s life.
+* Unclean media could reduce the device’s life.
+
+Additional components at risk
+Additionally, other components can fail. These include:
+* Batteries.
+* Docking stations.
+* Display monitors.
+
+-Examine guidelines for replacing hardware-
+
+When a hardware device fails, you usually have to replace it. To minimize the risk of a replacement device failing, adhere to the following guidelines:
+* When you install a device, take care to minimize the risk of damage during the installation process.
+* Eliminate support issues by choosing replacement devices that are compatible with Windows 10.
+* Follow your organization’s process for replacing hardware devices, including how to discard storage devices.
+* Update the incident report after you replace the device and resolve the issue.
+
+Root-cause analysis
+Verify if you can replace individual components
+
+Static-electricity issues
+Windows version compatibility
+Minimize interruption to users
+
+-Diagnose memory problems—
+
+Running the Windows Memory Diagnostics tool
+The Windows Memory Diagnostic tool includes three different testing levels: Basic, Standard, and Extended. Press F1 while a test is running to access the Windows Memory Diagnostics tool options, which include:
+* Test mix. Select which type of test to run.
+* Cache. Select the cache setting for each test.
+* Pass count. Set the number of times that the test mix will repeat the tests.
+
+-Diagnose and troubleshoot disk problems-
+
+Replace failed disks in redundant storage
+ If a disk in a mirrored volume fails, you should perform the following steps:
+* Connect a new disk to the Windows computer.
+* Remove the failed disk from the mirror by using the Disk Management tool.
+* Add a mirror that includes an operational disk from the previous mirror, and then add a new disk by using the Disk Management tool.
+
+If a disk fails that is in parity, or a two-way or three-way mirror storage space, you should perform following steps:
+* Connect the new disk to the Windows computer.
+* Add a new disk to the storage pool in the Storage Spaces app.
+* Remove the failed disk from the storage pool in the Storage Spaces app.

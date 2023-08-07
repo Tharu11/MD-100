@@ -1,0 +1,69 @@
+Explore physical hardware troubleshooting
+
+If a Windows device does not function properly, you can expect many different types of issues, which can vary from simply being annoying to users to being detrimental to your environment.
+For example, when a computer’s cooling fan produces a strange noise, a user’s productivity typically declines, and the hardware can overheat and fail.
+All data that the user did not save before the hardware failure will be lost.
+
+-Identify hardware-related problems-
+
+Failure of device drivers
+
+A device driver can fail for three primary reasons:
+* Version incompatibility with the operating system. 
+* Driver bugs
+* Incorrect driver.
+
+-Troubleshoot USB devices-
+
+Device identification strings
+* Hardware identifiers.
+* Compatible identifiers.
+
+To interpret the preceding and subsequent configuration files, use the following key:
+* HID = Human Interface Device, such as keyboards and mice.
+* VID = Vendor ID
+* PID = Product ID
+
+-Control USB device access-
+
+In Windows, you can use Group Policy to control how USB devices access your computer. You can use Group Policy to:
+* Prevent users from installing any device.
+* Allow users to install only devices on an approved list.
+* Prevent users from installing devices that are on a prohibited list.
+* Deny read or write access to removable devices or removable media.
+* More simple data security. 
+* Reduced support costs.
+
+However, controlling USB device installation could cause issues, including:
+* Misdiagnosed faults.
+* Policy management. 
+
+-Troubleshoot wireless devices-
+
+Users can connect many peripherals and devices to their computers when they use wireless connections. Two commonly used wireless technologies are:
+* Bluetooth. 
+* Wi-Fi. 
+
+-Gather hardware information-
+
+The Event Viewer tool
+This category of logs includes four subtypes:
+* Admin.
+* Operational. 
+* Analytic and Debug. 
+
+The Reliability and Performance Monitor tools
+The Reliability and Performance Monitor console includes two monitoring tools:
+* Reliability Monitor.
+* Performance Monitor. 
+
+-Use best practices to troubleshoot hardware issues-
+
+Best practices for troubleshooting hardware issues include:
+* Verify hardware compatibility.
+* Use Event Viewer and Device Manager for initial troubleshooting.
+* Remove or disable recently installed device drivers.
+* Use driver rollback to return to a previous driver version. 
+* Consider upgrading the computer’s BIOS or firmware. 
+* Use hardware vendor support.
+* Follow the company incident reporting process.
