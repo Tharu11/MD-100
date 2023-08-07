@@ -1,0 +1,90 @@
+Explore application troubleshooting
+
+
+Most large organizations automate application installations from a central location.
+However, desktop support personnel are involved in application deployment during the initial development, and during troubleshooting of failed installations. 
+Therefore, you must know how to identify why a desktop app installation fails, and how to resolve any issues that might prevent installation.
+
+-Troubleshoot Windows Installer issues-
+
+Windows uses Windows Installer to perform Win32 application installations. Windows 7 and newer Windows operating system versions all include Windows Installer version 5.0.
+
+During application installation, you might receive one of the following error messages:
+* “The Windows Installer Service could not be accessed.”
+* “Windows Installer Service could not be started.”
+* “Could not start the Windows Installer service on the Local Computer.”
+
+To troubleshoot Windows Installer issues, you can use any one of the following methods:
+* Verify that Windows Installer is functioning by running msiexec at a command prompt.
+* Verify that the Windows Installer service is configured to start manually, and that it starts without errors.
+* Verify that Windows Installer has the latest updates. This currently is not relevant, as no newer version exists.
+* Reregister Windows Installer by using the following commands: ( - Msiexec /unregister and - Msiexec /register)
+* Restart the computer to reset any ongoing installation.
+* Remove any software that might conflict with the software that you are trying to install.
+
+-Resolve desktop app deployment issues-
+
+The following list describes methods used for resolving desktop app deployment issues:
+* Run as administrator.
+* Install the necessary dependencies.
+* Application Compatibility Toolkit (ACT).
+* Correct AppLocker configuration.
+
+-Identify issues related to desktop app operations-
+
+Some of the issues that you or your users might encounter include:
+* Missing application features.
+* Missing Windows operating system features.
+* Incorrect configuration.
+* Poor performance.
+* Application errors.
+* Incorrect database connection settings.
+* Application blocking by AppLocker. 
+
+Additional research might include:
+* Searching the vendor’s website.
+* Searching the Internet.
+* Contacting vendor support.
+
+-Resolve issues related to desktop app operations-
+
+Some ways to resolve issues with desktop app operations include the following methods:
+* Install a requested feature. 
+* Reconfigure the application. 
+* Repair or reinstall the application.
+* Apply application updates.
+* Upgrade the application to a newer version.
+* Identify performance issues and bottlenecks.
+* Reconfigure AppLocker rules. 
+
+-Resolve issues related to Universal Windows Platform apps-
+
+Additional solutions to the Windows Store apps troubleshooter
+* The built-in Administrator cannot run Universal Windows apps.
+* Enable UAC to run Universal Windows apps.
+* The app might be blocked by Windows Firewall.
+* The application might be blocked by Group Policy.
+* Make sure your applications are up to date. 
+* Clear Microsoft Store cache. 
+* Synchronize application licenses.
+
+-Troubleshoot common Microsoft 365 app issues-
+
+Microsoft 365 apps have become easier to install and use. However, you and your users might still run into issues. You might experience some of the following issues with Microsoft 365 apps:
+
+* Installation.
+* Licensing.
+* Activation.
+* Connectivity.
+* Updates.
+
+-Explore the Application Compatibility Toolkit-
+
+Organizations typically use ACT when planning a new operating system deployment to ensure that all applications function properly.
+
+ACT includes the following features:
+* The ACT database.
+* The Compatibility Administrator Tool. 
+* The Setup Analysis Tool (SAT). 
+* The Standard User Analyzer. 
+* The Update Compatibility Evaluator (UCE).

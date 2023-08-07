@@ -1,0 +1,129 @@
+Troubleshoot Windows startup
+
+To recover Windows computers that don't start, or to recover computers that are starting with errors, you must recognize what the operating system looks like when it's starting properly.
+Additionally, a good working knowledge of the recovery tools that Windows provides should help you to identify and resolve problems that relate to startup issues.
+
+-Explore the Windows client startup architecture-
+
+The Windows boot loader architecture provides a quick and secure mechanism for starting the Windows operating system. The boot loader architecture has three main components:
+* The Windows Boot Manager (BOOTMGR). 
+* The Windows OS Loader (Winload.exe). 
+* The Windows Resume Loader (Winresume.exe).
+
+Windows Boot Manager
+Windows OS Loader
+Windows Resume Loader
+Windows startup process
+Windows Secure Boot
+
+-Compare device recovery procedures-
+
+In the event of a system failure, you would need all this data to recover the device. However, today things are different:
+
+* Devices are connected.
+* Apps, if installed locally, are always available from the company store or Microsoft Store.
+* User data is no longer only stored locally. Local storage provides faster access and the ability to use the data in the absence of network connectivity. When connectivity is restored, the local copy of the data is synchronized and stored on company file servers or in the cloud.
+
+Windows is a device oriented operating system that includes several features that you can use for device recovery:
+* Driver Roll Back.
+* System Protection and System Restore.
+* Startup Recovery.
+* Reset this PC.
+* System Image Recovery.
+* Command prompt.
+
+After you recover your operating system, you can restore access to your data by doing one of the following steps:
+* Signing in to the recovered device, if you use Folder Redirection, Offline Files, or OneDrive for Business.
+* Restoring the user data by using Azure Backup or the Backup and Restore (Windows 7) tool.
+
+-Use the Windows Recovery Environment-
+
+Windows RE
+Windows RE provides two main functions:
+* Diagnose and repair startup problems automatically.
+* Provide a centralized platform for additional advanced recovery tools.
+
+How to access Windows RE
+If Windows starts normally, you can access Windows RE by:
+* Selecting Start, Power, then holding SHIFT while selecting Restart.
+* In the Settings App under Update & Security, select Recovery and select Restart now under Advanced Startup.
+* From a command prompt, run shutdown /r /o
+If you cannot successfully boot Windows, you can access Windows RE by:
+* Insert the Windows media, and then start the computer. When prompted, run the Windows media Setup program. After you configure language and keyboard settings, select the Repair your computer option, which scans the computer for Windows installations, and then presents you with a Choose an option menu, Select Troubleshoot.
+* Some systems will support pressing a function key during boot (such as F11). The previous method of using F8/SHIFT-F8 is no longer reliable.
+
+-Explore advanced startup options-
+
+Boot menu options
+
+The following options are available from the boot menu:
+* Enable debugging.
+* Enable boot logging.
+* Enable low-resolution video.
+* Enable Safe Mode.
+* Enable Safe Mode with Networking.
+* Enable Safe Mode with Command Prompt. 
+* Disable driver signature enforcement. 
+* Disable early launch anti-malware protection.
+* Disable automatic restart after failure.
+* Launch recovery environment.
+
+-Examine the System Restore feature-
+
+After you enable System Restore points, Windows creates them automatically when the following actions occur:
+* You install a new application or driver.
+* You uninstall certain programs.
+* You install updates.
+
+Windows also creates System Restore points:
+* Manually, whenever you choose to create them.
+* Automatically, once daily.
+* Automatically, if you choose to use System Restore to restore to a previous point in time.
+Explore additional recovery tools in Windows Recovery Environment
+
+In Troubleshooting, from the Advanced options menu, you can access the following tools:
+* System Restore
+* System Image Recovery
+* Startup Repair
+* Command Prompt
+* Go back to the previous build
+
+Startup Repair
+* Replace or Repair Disk Metadata.
+* Repair Boot Configuration Settings.
+* If the boot configuration data is damaged or deleted, the operating system fails to start.
+* Resolve Incompatible Driver Issues.
+
+Command Prompt
+* Resolve problems with a service or device driver.
+* Recover missing files.
+* Access and configure the BCD.
+* Repair the boot sector and MBR.
+* Run diagnostic and troubleshooting tools. 
+
+-Explore the Windows client Boot Configuration Data store-
+
+Typical reasons to manipulate the BCD with BCDEdit include:
+* Adding a new hard disk to your Windows computer and changing the logical drive numbering.
+* Installing additional operating systems on your Windows computer to create a multiboot configuration.
+* Deploying Windows to a new computer with a blank hard disk, requiring you to configure the appropriate boot store.
+* Performing a backup or restoring a corrupted BCD.
+
+-Configure the BCD settings-
+
+Depending on what you want to change, you can use the following tools to modify the BCD store:
+* Startup and Recovery.
+* The System Configuration tool (MSConfig.exe). 
+Safe boot
+(Safe boot: Minimal.
+Safe boot: Alternate shell.
+Safe boot: Active Directory repair.
+Safe boot: Network.)
+
+No GUI boot
+Boot log
+Base video
+
+Advanced options: (Debug, Number of processors, Maximum memory)
+* BCDEdit.exe.
+* BootRec.exe.

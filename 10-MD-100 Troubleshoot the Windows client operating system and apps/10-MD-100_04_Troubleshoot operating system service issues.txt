@@ -1,0 +1,50 @@
+Troubleshoot operating system service issues
+
+Failures of an operating system service often result in problems that are not severe enough to prevent the computer from starting, but are enough to restrict functionality. 
+Therefore, it is important that you understand how to identify and resolve service-related startup problems.
+
+-Examine operating system services-
+
+To troubleshoot system service issues, you must understand the differences between the different system services.
+System services have three distinct groups: software applications, operating system services, and hardware devices and their associated device drivers.
+
+-Identify failed operating system services-
+
+Event Viewer
+
+Event Viewer provides access to the Windows logs, and to applications and services logs.
+The Windows logs files provide the following information:
+* Application log.
+* Security log.
+* System log.
+
+Windows logs the following three events:
+* Information events
+* Warning events
+* Error events
+
+Log files
+Stop codes
+Action center
+
+-Disable operating system services-
+
+Safe mode
+Command prompt recovery tool
+System Configuration tool
+
+-Troubleshoot locked accounts in Windows clients-
+
+Occasionally, account lockouts can occur for other, less obvious reasons than repeated, failed interactive sign-in attempts, including that:
+* Applications use cached user credentials.
+* Users sign in to multiple computers.
+* Passwords for service accounts have changed.
+* Persistent drive mappings are used.
+
+-Identify sign-in errors-
+
+You can resolve most errors that pertain to sign in issues quickly once you identify the issue. You can use the following methods and tools to help troubleshoot sign-in issues:
+* On-screen errors.
+* Active Directory Users and Computers. 
+* Windows PowerShell. 
+* Event logs.
